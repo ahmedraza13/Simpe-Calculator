@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+
+   
+
+}
+h1, label{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+input{
+    color:purple ;
+}
+
+.btn{
+    padding-top: 20px;
+    
+}
+
+button{
+    border-radius: 50%;
+    padding: 5px;
+    width: 30px;
+    margin: 0px 4px;
+    background-color:purple ;
+    color: white;
+    border: none;
+    font-size: 1.3em;
+    cursor: pointer;
+}
